@@ -1,3 +1,7 @@
+// Solved using the Boyer–Moore majority vote algorithm
+// https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
+// 0ms
+
 #include <vector>
 using namespace std;
 
