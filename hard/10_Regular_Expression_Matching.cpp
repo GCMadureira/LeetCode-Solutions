@@ -1,3 +1,6 @@
+// solved using a DP solution, surprisingly easy problem for a hard one
+// 0ms
+
 #include <string>
 using namespace std;
 
