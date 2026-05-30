@@ -93,17 +93,7 @@ public:
                     (p[i] == '*' && (dp[i - 1][j] || dp[i - 1][j - 1] || dp[i][j - 1]));
             }
         }
-
-        /*
-        for(int i = 0; i < p.size(); ++i) {
-            for(int j = 0; j < s.size(); ++j) {
-                cout << dp[i][j] << " " ;
-            }
-            cout << "\n";
-        }
-        */
         
-
         return dp[p.size() - 1][s.size() - 1];
     }
 };
